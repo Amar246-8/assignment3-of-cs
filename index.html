@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Your+Custom+Font&display=swap">
+    <title>My Favorite Candy</title>
+    <link rel="icon" type="image/x-icon" href="C:\Users\amard\Downloads\Asssignment 4 of CSS\IMG of Candies\top-view-candy-word-sweets-frame.jpg">
+    <style>
+        body {
+          
+          background-image: url("C:\Users\amard\Downloads\Asssignment 4 of CSS\IMG of Candies\2150707513.jpg");
+          width: auto;
+          height: auto;
+          font-family: 'Tangerine', serif;
+        font-size: 20px;
+        text-shadow: 4px 4px 4px #aaa;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1 style="color:olive;">Let's Discover all's Favorite Candies</h1>
+    </header>
+    <main>
+        <section id="candy-info">
+            <h2 style="color:red;">About all's Favorite Candy</h2>
+            <p style="color:black;">My favorite candy is delicious, tasty,sweet and irresistible. It's a gets loved by many around the world.</p>
+
+            <h2 style="color:red;">Interesting Facts</h2>
+            <ul>
+                <li>It was first created in [1985]</li>
+                <li>Over [4] million of these candies are produced and sell each year</li>
+                <li>Its unique and delightful flavor is a combination of [Milk,Sugar,Protein,etc]</li>
+            </ul>
+
+            <h2 style="color:red;">Nutritional Information</h2>
+            <p style="color:orchid">Here's some nutritional information for [Milky,Salty&Sweet,Choco,Kitkat]:</p>
+            <table>
+                <tr>
+                    <th>Nutrient, Sugar, Protein, Carbohydrate, Vitamin,Minerals></th>
+                    <th>Amount per Serving is 1% to 3%</th>
+                </tr>
+                <tr>
+                    <td>Calories</td>
+                    <td>[2%]</td>
+                </tr>
+                <tr>
+                    <td>Sugar</td>
+                    <td>[Sugar Content ia 4%]</td>
+                </tr>
+                <!-- Add more nutrient information -->
+            </table>
+        </section>
+
+        <section id="candy-images">
+            <h2 style="color:orange;">Eye-Popping Imagery</h2>
+            <p style="color:coral" >These eye poping Imagery will give you the feel of your real candy, which taste never disappoint you.</p>
+            <img src="C:\Users\amard\Downloads\Asssignment 4 of CSS\IMG of Candies\2150707513.jpg" height="900px" width="100%" alt="Candy Image 1">
+            <p style="color:orchid">You can gift candies to someone whom you love most</p>
+            <img src="C:\Users\amard\Downloads\Asssignment 4 of CSS\IMG of Candies\candies-1961536_640.jpg"height="900px" width="100%" alt="You Can enjoy this variety">
+        </section>
+    </main>
+    <div id="Order-form">
+        <h3 style="color: brown;">Order Your Candy</h3>
+        <p style="color:goldenrod">This is where you can order for your favorite candy with the help of filling following sections.Make to fill all the sections.</p>
+        <p style="color:goldenrod">ENJOY</p>
+        <form action="#">
+            <label for="Candy Name">Candy Name:</label>
+            <!--input type="Number" id="OrderID" name="OrderID" placeholder="valid ID"-->
+            <select name="Candy Names">
+                <option value="M"> Milky</option>
+                <option value="S&S">Salty&Sweet</option>
+                <option value="C"> Choco</option>
+                <option value="K">KitKat </option>
+            </select>
+            <br>
+            <br>
+            <label for="Amount">Amount:</label>
+            <input type="Number" id="Amount" name="Amount" placeholder="Here to enter amount">
+            <br>
+            <br>
+            <label for="Price">Price:</label>
+            <input type="Number" id="Price" name="Price" placeholder="check price">
+            <br>
+            <br>
+            <label for="Sugar Amount">Sugar Amount:</label>
+            <input type="number" id="Sugar Amount" name="Sugar Amount" placeholder="check Sugar Quantity">
+            <br>
+            <br>
+            <label for="Shape">Shape:</label>
+            <!--input type="Shape" id="Shape" name="Shape" placeholder="select Shape"-->
+            <select name="Shapes">
+                <option value="R"> Rectangle</option>
+                <option value="S">Square</option>
+                <option value="C"> Circle</option>
+                <option value="T"> Triangle</option>
+            </select>
+            <br>
+            <br>
+            <label for="Special guidline">Special guidline:</label>
+            <textarea id="Special guidline" name="Special guidline" rows="4" placeholder="guidlines for us"></textarea>
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+            
+
+    <footer>
+        
+        <div id="contact-form">
+             <form action="#">
+                <h3 style="color: brown;">Contact Us</h3>
+                <p style="color:orangered"style="color:burlywood">Here you can reach to us for any question but you have fill below form so we can access to your order summary.</p>
+                 <p style="color:orangered">CAREFULL, OrderID you got while ordering your candy.
+                </p>
+                <label for="OrderID">OrderID:</label>
+                <input type="number" id="OrderID" name="OrderID" placeholder="valid ID">
+                <br>
+                <br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Full name">
+                <br>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Correct email please">
+                <br>
+                <br>
+
+                <label for="Phone Number">Phone Number:</label>
+                <input type="Number" id="Phone Number" name="Phone Number" placeholder="your phone Number">
+                <br>
+                <br>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="3" placeholder="a message for us"></textarea>
+                <br>
+                <br>
+
+                <button type="submit">Submit</button>
+                
+                <h3 style="color: brown;">Your Feedback</h3>
+                <p style="color:orchid" >Your feedback is quite valuable for us.</p>
+                <p style="color:orchid">Help to improve our service.</p>
+                <label for="Service">Service:</label>
+                <!--input type="number" id="OrderID" name="OrderID" placeholder="valid ID"-->
+                <select name="Service">
+                    <option value="S">Satisfy</option>
+                    <option value="E">Excellence</option>
+                    <option value="G">Good</option>
+                    <option value="A">Average</option>
+                </select>
+                <br>
+                <br>
+                <label for="Comment">Comment:</label>
+                <textarea id="Comment" name="Comment" rows="3" placeholder="your Comment about service"></textarea>
+            </form>
+        </div>
+        <div id="company-info">
+        <p style="color: olive;">My Candy Company &copy; 2023</p>
+            </div>
+    </footer>
+</body>
+</html>
